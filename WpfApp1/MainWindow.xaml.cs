@@ -15,6 +15,8 @@ using System.Configuration;
 using System.Web;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Office.Interop;
+using Microsoft.Data.Sqlite;
+using System.Data.SQLite;
 
 namespace WpfApp1
 {

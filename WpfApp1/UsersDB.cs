@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Windows;
 using System.Data.SQLite;
-using ClassLibrary1;
 using System.ComponentModel;
 using System.Data;
 using ClosedXML.Excel;

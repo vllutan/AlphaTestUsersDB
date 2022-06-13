@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.SQLite;
-using ClassLibrary1;
 using System.IO;
 
 namespace WpfApp1
