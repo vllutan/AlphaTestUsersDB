@@ -11,7 +11,7 @@ namespace WpfApp1
 {
     public class UsersDB : INotifyPropertyChanged
     {
-        DbCreator dbCreator = new();
+        DbCreator dbCreator = new DbCreator();
         public List<User> ListOfNotNullUsers
         {
             get { return dbCreator.getExsistingValues(); }

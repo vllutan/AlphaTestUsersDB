@@ -83,7 +83,7 @@ namespace WpfApp1
 
         public List<User> getExsistingValues()
         {
-            ExistingUsers = new();
+            ExistingUsers = new List<User>();
             command.CommandText = "select * from USERS where deleted=0";
             SQLiteDataReader dr = command.ExecuteReader();
             if (dr.HasRows)
